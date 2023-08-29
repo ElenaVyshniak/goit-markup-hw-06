@@ -140,48 +140,6 @@
   color: var(--ocean);
 }
 
-.hero-title {
-  max-width: 496px;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: var(--white);
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 48px;
-}
-
-button {
-  font-family: inherit;
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  border-radius: 4px;
-  background: var(--iris);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-
-.hero-button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background: var(--iris);
-  display: block;
-  margin: 0 auto;
-  border: none;
-  text-align: center;
-  min-width: 169px;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--ocean);
-}
-
 .order-servise {
   font-size: 16px;
   font-style: normal;
