@@ -115,39 +115,6 @@
   color: var(--ocean);
 }
 
-/* doing section */
-
-.doing-section {
-  background: #fff;
-  padding: 120px;
-}
-
-.doing-title {
-  color: var(--navyblue);
-  text-align: center;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
-
-.doing-foto {
-  flex-basis: calc((100% - 2 * 24px) / 3);
-}
-
-.doing-list {
-  display: flex;
-  gap: 24px;
-}
-
-.doing-list-img {
-  border: var(--cornflower);
-  background: lightgray;
-}
-
 /* filters section */
 
 .product {
