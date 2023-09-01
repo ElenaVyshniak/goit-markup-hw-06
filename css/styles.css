@@ -802,7 +802,11 @@ button {
 
 @media only screen and (max-width: 767.8px) {
   .footer-subscribe {
-    margin: 72px 15px 96px 15px;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    align-items: center;
+    margin-top: 72px;
   }
 }
 
@@ -825,6 +829,12 @@ button {
   display: flex;
 }
 
+@media only screen and (max-width: 768.2px) {
+  .footer-subscribe-text {
+    justify-content: center;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .footer-subscribe-text {
     text-align: left;
@@ -838,12 +848,12 @@ button {
   align-items: center;
   margin-top: 40;
   margin-left: 189;
+  gap: 24px;
+  display: flex;
 }
 
 @media only screen and (min-width: 768px) {
   .footer-subscribe-form {
     align-items: baseline;
-    gap: 24px;
-    display: flex;
   }
 }
