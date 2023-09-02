@@ -173,5 +173,15 @@
 <path d="M2 12h6v18h-6v-18z"></path>
 <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
 </symbol>
+<symbol id="burger-menu" viewBox="0 0 32 22" fill="none">
+  <g clip-path="url(#clip0_297053_2156)">
+    <path d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861" stroke="#2E2F42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_297053_2156">
+      <rect width="32" height="22" fill="white"/>
+    </clipPath>
+  </defs>
+</symbol>
 </defs>
 </svg>
