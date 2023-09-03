@@ -117,16 +117,10 @@ img {
 
 .header-flex.container {
   min-width: 320px;
-  max-width: 428px;
+  max-width: 768px;
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
-}
-
-@media only screen and (min-width: 768px) {
-  .header-flex .container {
-    max-width: 768px;
-  }
 }
 
 @media only screen and (min-width: 1158px) {
@@ -178,12 +172,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-}
-
-@media only screen and (min-width: 768px) {
-  .logo {
-    margin-left: 120px;
-  }
 }
 
 @media only screen and (min-width: 1158px) {
@@ -784,7 +772,6 @@ button {
 @media only screen and (min-width: 768px) {
   .footer-container {
     display: flex;
-    column-gap: 24px;
     flex-direction: row;
     align-items: baseline;
   }
@@ -796,7 +783,6 @@ button {
     margin-left: auto;
     margin-right: auto;
     flex-wrap: nowrap;
-    column-gap: 0;
   }
 }
 
@@ -809,6 +795,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-right: 120px;
   }
 }
 
@@ -837,7 +824,6 @@ button {
 @media only screen and (min-width: 768px) {
   .footer-section .logo {
     display: inline-block;
-    margin-right: 120px;
   }
 }
 
@@ -903,7 +889,6 @@ button {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
   text-align: center;
-  margin-top: 72px;
 }
 
 @media only screen and (max-width: 767.8px) {
@@ -949,24 +934,12 @@ button {
 
 /* Subscribe */
 
-.footer-subscribe {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 @media only screen and (max-width: 767.8px) {
   .footer-subscribe {
     display: flex;
     flex-direction: column;
     min-width: 100%;
 
-    margin-top: 72px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .footer-subscribe {
-    margin-left: 80px;
     margin-top: 72px;
   }
 }
@@ -1023,7 +996,7 @@ button {
 .footer-form-input {
   width: 264px;
   height: 40px;
-  padding-left: 8px 16px;
+  padding-left: 16px;
   border-radius: 4px;
   border: 1px solid var(--white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -1035,6 +1008,12 @@ button {
   color: var(--white);
   text-align: auto;
   transition: border-color var(--ocean);
+}
+
+@media only screen and (max-width: 767.98px) {
+  .footer-form-input {
+    width: 100%;
+  }
 }
 
 .footer-form-input:focus {
