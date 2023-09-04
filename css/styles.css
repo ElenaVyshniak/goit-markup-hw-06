@@ -1166,12 +1166,19 @@ img {
 }
 
 .mobile-menu-link.current {
-  color: var(--OCEAN);
+  color: var(--iris);
 }
 
 /* Address-mobile */
+.mobile-address {
+margin-top: auto;
+}
+
 .mobile-address-items {
-  margin-top: auto;
+ display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+
 }
 .mobile-items:not(:last-child) {
  margin-bottom: 40px;
@@ -1211,6 +1218,7 @@ img {
   align-items: center;
   max-width: 328px;
   justify-content: space-between;
+  margin-top: 48px;
 }
 
 .mobile-socialmedias {
