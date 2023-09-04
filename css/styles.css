@@ -1167,6 +1167,7 @@ img {
 
 /* Address-mobile */
 .mobile-address-items {
+  gap: 40px;
   margin-bottom: 40px;
 }
 .mobile-items:not(:last-child) {
@@ -1204,7 +1205,8 @@ img {
   display: flex;
   gap: 30px;
   align-items: center;
-  margin-bottom: auto;
+  max-width: 328px;
+  justify-content: space-between;
 }
 
 .mobile-socialmedias {
