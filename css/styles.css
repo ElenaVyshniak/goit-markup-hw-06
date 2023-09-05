@@ -582,13 +582,6 @@ img {
   }
 }
 
-@media only screen and (min-width: 1158px) {
-  .team-list {
-    flex-wrap: nowrap;
-    flex-basis: calc((100%-96px) / 4);
-  }
-}
-
 .team-list-item {
   margin-left: auto;
   margin-right: auto;
